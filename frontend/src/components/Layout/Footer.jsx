@@ -8,12 +8,12 @@ function Footer() {
   const {isAuthorized}  = useContext(Context)
   return (
     <footer className= {isAuthorized ? "footerShow" : "footerHide"}>
-<div>&copy; All Rights Reserved by Harsh.</div>
+<div>&copy; All Rights Reserved by Keshav.</div>
 <div>
-  <Link to={'https://github.com/harshgupta4114'} target='github'><FaGithub></FaGithub></Link>
-  <Link to={'https://leetcode.com/u/harshgupta4114/'} target='leetcode'><SiLeetcode></SiLeetcode></Link>
-  <Link to={'https://www.linkedin.com/in/harsh-gupta-9a01b0274/'} target='linkedin'><FaLinkedin></FaLinkedin></Link>
-  <Link to={'https://www.instagram.com/harshgupta2774/'} target='instagram'><RiInstagramFill></RiInstagramFill></Link>
+  <Link to={'https://github.com/Keshav6125'} target='github'><FaGithub></FaGithub></Link>
+  <Link to={'https://leetcode.com/u/keshavdutt0612/'} target='leetcode'><SiLeetcode></SiLeetcode></Link>
+  <Link to={'https://www.linkedin.com/in/keshav-dutt-gautam-71469b273/'} target='linkedin'><FaLinkedin></FaLinkedin></Link>
+  <Link to={'https://www.instagram.com/keshav_pandit63/'} target='instagram'><RiInstagramFill></RiInstagramFill></Link>
 </div>
       
     </footer>
