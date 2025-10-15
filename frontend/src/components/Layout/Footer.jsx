@@ -10,10 +10,10 @@ function Footer() {
     <footer className= {isAuthorized ? "footerShow" : "footerHide"}>
 <div>&copy; All Rights Reserved by Keshav.</div>
 <div>
-  <Link to={'https://github.com/Keshav6125'} target='github'><FaGithub></FaGithub></Link>
-  <Link to={'https://leetcode.com/u/keshavdutt0612/'} target='leetcode'><SiLeetcode></SiLeetcode></Link>
-  <Link to={'https://www.linkedin.com/in/keshav-dutt-gautam-71469b273/'} target='linkedin'><FaLinkedin></FaLinkedin></Link>
-  <Link to={'https://www.instagram.com/keshav_pandit63/'} target='instagram'><RiInstagramFill></RiInstagramFill></Link>
+  <Link to={'https://github.com/WisKeyOp'} target='github'><FaGithub></FaGithub></Link>
+  <Link to={'https://leetcode.com/u/ecarte/'} target='leetcode'><SiLeetcode></SiLeetcode></Link>
+  <Link to={'https://www.linkedin.com/in/aayush-shukla-a13752383/'} target='linkedin'><FaLinkedin></FaLinkedin></Link>
+  <Link to={'https://www.instagram.com/amoureux_des_boites/'} target='instagram'><RiInstagramFill></RiInstagramFill></Link>
 </div>
       
     </footer>
