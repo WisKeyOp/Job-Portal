@@ -1,79 +1,97 @@
-# Job Portal App with MERN Stack
+# Job Portal App (MERN Stack)
 
-A comprehensive job portal application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This application allows users to browse job listings, apply for jobs, and manage their applications seamlessly.
+A full-featured job portal application empowering job seekers and employers with seamless job listing, application, and management capabilities. Crafted with reliability and scale in mind using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 
-## Features
+## 🚀 Features
 
-- **User Authentication:** Secure authentication using JWT (JSON Web Tokens) for both job seekers and employers.
-- **Job Listings:** Browse through a wide range of job listings fetched from MongoDB.
-- **Application Management:** Job seekers can manage their job applications, and employers can view and manage received applications.
-- **Responsive Design:** Ensures a seamless experience across all devices.
+- **Secure User Authentication:**  
+  Robust registration and login for both job seekers and employers using JWT.
 
-## Technologies Used
+- **Dynamic Job Listings:**  
+  Browse, search, and filter jobs from a continually updated MongoDB database.
 
-- **Frontend:** React.js, React Router, Bootstrap
-- **Backend:** Node.js, Express.js, MongoDB
-- **Authentication:** JWT (JSON Web Tokens), Bcrypt (for password hash)
-- **Image Upload:** Cloudinary for storing and managing uploaded images
-- **Deployment:** Vercel (frontend), Render(backend), MongoDB Atlas (database)
+- **Application Management:**  
+  Job seekers can easily track their applications.  
+  Employers can post jobs and manage all received applicants from one dashboard.
 
-## Getting Started
+- **Responsive UI:**  
+  Modern, device-agnostic experience using React.js and Bootstrap.
 
-To get a local copy up and running follow these simple steps.
+- **Image Uploads:**  
+  Profile pictures and company logos stored on Cloudinary.
+
+- **Role-based Access:**  
+  Tailored interfaces for job seekers and employers to optimize workflow.
+
+## 🛠️ Technologies Used
+
+- **Frontend:** React.js, React Router, Bootstrap  
+- **Backend:** Node.js, Express.js, MongoDB (via Mongoose)  
+- **Authentication:** JWT, Bcrypt for hashing  
+- **Cloud Media:** Cloudinary  
+- **Deployment:** Vercel (frontend), Render (backend), MongoDB Atlas (database)  
+
+## 📝 Getting Started
+
+Follow these steps to setup the project locally:
 
 ### Prerequisites
 
-- Node.js installed on your machine with latest version or v22.2.0 above
-- MongoDB Atlas account (or local MongoDB server)
-- Cloudinary account for image storage
+- Node.js v22.2.0 or higher
+- MongoDB Atlas account (or local MongoDB)
+- Cloudinary account for media
 
 ### Installation
 
-1. Clone the repo:
-   ```sh
-   git clone https://github.com/Keshav6125/job-portal
-   ```
-2. Install NPM packages:
+1. **Clone the repository:**
+    ```
+    git clone https://github.com/Keshav6125/job-portal
+    cd job-portal
+    ```
 
-   ```sh
-   cd job-portal
-   cd backend
-   npm install
-   cd..
-   cd frontend
-   npm install
-   ```
+2. **Set up the backend:**
+    ```
+    cd backend
+    npm install
+    ```
 
-3. ## If you don't want to change the`.env` credentials skip step 4 and move to step 5.
+3. **Set up the frontend:**
+    ```
+    cd ../frontend
+    npm install
+    ```
 
-4. Set up environment variables:
+4. **Configuration:**  
+   Add a `.env` (or `config.env` inside a `config` folder for backend) file with these variables:
+    ```
+    PORT=
+    CLOUDINARY_API_KEY=
+    CLOUDINARY_API_SECRET=
+    CLOUDINARY_CLOUD_NAME=
+    FRONTEND_URL=
+    DB_URL=
+    JWT_SECRET_KEY=
+    JWT_EXPIRE=
+    COOKIE_EXPIRE=
+    ```
 
-   - Create a `config.env` file after creating a `config folder` in the backend directory, containing the following variables:
+5. **Start the backend:**
+    ```
+    cd backend
+    node server.js
+    ```
 
-   ```env
-   PORT=
-   CLOUDINARY_API_KEY=
-   CLOUDINARY_API_SECRET=
-   CLOUDINARY_CLOUD_NAME=
-   FRONTEND_URL=
-   DB_URL=
-   JWT_SECRET_KEY=
-   JWT_EXPIRE=
-   COOKIE_EXPIRE=
-   ```
+6. **Start the frontend:**
+    ```
+    cd ../frontend
+    npm run dev
+    ```
 
-   Replace each value with your specific configuration details.
+7. **View the app:**  
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-5. Run the application backend (make sure you are in `/backend` directory) :
+## 🤝 Acknowledgements
 
-   ```sh
-   node server.js
-   ```
+Built and maintained by **Aayush Shukla**.
 
-6. Run the application frontend (make sure you are in `/frontend` directory) :
-   ```sh
-   npm run dev
-   ```
-7. Open your browser and navigate to `http://localhost:5173` to view the app.
-
-
+---
