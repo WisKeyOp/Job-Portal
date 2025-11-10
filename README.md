@@ -92,6 +92,6 @@ Follow these steps to setup the project locally:
 
 ## 🤝 Acknowledgements
 
-Built and maintained by **Aayush Shukla**.
+Built and maintained by **Aayush Shukla** and **Keshav Dutt Gautam**.
 
 ---
